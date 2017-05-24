@@ -1,0 +1,6 @@
+framework module Pods_erlifestas {
+  umbrella header "Pods-erlifestas-umbrella.h"
+
+  export *
+  module * { export * }
+}
