@@ -173,6 +173,9 @@ class PedidoVC: UIViewController, UITextFieldDelegate , UITableViewDataSource , 
      // Pass the selected object to the new view controller.
         
         if segue.identifier == "selectProd" {
+            //ATENÇÃO ----->
+            //CORRIGIR ESSA MERDA (dest = tableProdutos.indexPathForSelectRow)
+            //
             if let dest = segue.destination as? ProdutosVC{
                 if clientePicker.clienteSelecionado != nil{
                     dest.clienteSelecionado = clientePicker.clienteSelecionado
